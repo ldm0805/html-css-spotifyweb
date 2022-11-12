@@ -113,7 +113,6 @@
   }
 
 .col-aside-up{
-    border: 1px solid black;
     background-color: rgba(0, 0, 0, 0.11);
     width: 100%;
 }
@@ -135,10 +134,9 @@
 }
 
 .col-aside-down{
-    border: 1px solid black;
+    border: 1px solid red;
     background-color: rgba(0, 0, 0, 0.11);
     width: 100%;
-    height: 30%;
 }
 
 .plus-button{
@@ -150,8 +148,20 @@
     margin-right: .3em;
 }
 
+.margin-top-bt{
+    margin: 1em 0em;
+}
 
+.profile-img{
+    background-color: gray;
+    color: white;
+    padding: 1em;
+    border-radius: 100%;
+}
 
+.marginauto{
+    margin: auto 0;
+}
 /* Main */
 
 
