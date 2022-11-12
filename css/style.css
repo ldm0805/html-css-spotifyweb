@@ -21,6 +21,18 @@
     flex-direction: column;
 }
 
+.align-items{
+    align-items: center;
+}
+
+.jsf-cnt-center{
+    justify-content: center;
+}
+
+.gap-1em{
+    gap: 1em;
+}
+
 .txt-white{
     color: white;
 }
@@ -56,6 +68,11 @@
 
 .margin-bt{
     margin-bottom: 0.5em;
+}
+
+
+.font-sz-15em{
+    font-size: 1.5em;
 }
 
 /* Header */
@@ -157,6 +174,7 @@
     color: white;
     padding: 1em;
     border-radius: 100%;
+    background-image: url(../img/profile.svg);
 }
 
 .marginauto{
@@ -205,15 +223,32 @@
     bottom: 0;
     height: 5em;
     width: 100%;
-    background-color: rgb(0, 204, 255);
+    background-color: rgb(78, 79, 80);
     justify-content: space-between;
 }
 
 .col-footer{
     border: 1px solid black;
     background-color: rgba(0, 0, 0, 0.11);
-    width: 30%;
+    width: 20%;
     height: 100%;
+}
+
+.img-album{
+    height: 100%;
+    width: 20%;
+    background-image: url(../img/sinister.jpeg);
+    background-size: cover;
+}
+
+.tag-song{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.song-cont{
+    width: 80%;
+    justify-content: space-between;
 }
 
 /* responsive */
