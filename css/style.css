@@ -193,6 +193,9 @@
 
 /* Main */
 
+.cont-li{
+    flex-direction: row;
+}
 
 
 .cont-main{
