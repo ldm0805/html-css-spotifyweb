@@ -90,6 +90,7 @@
 .border-r-100{
     border-radius: 100%;
 }
+
 /* Header */
 
 .cont-head{
@@ -97,7 +98,7 @@
 }
 
 .row-head{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 11em;
     height: 4em;
@@ -125,7 +126,7 @@
     height: calc(100% - 5em);
     width: 11em;
     position: fixed;
-   
+    overflow-y: hidden;
     top: 0;
     left: 0;
     background-color: #000000;
@@ -205,12 +206,13 @@
 .row-main{
     position: absolute;
     left: 11em;
-    top: 4em;
+    top: 0em;
     bottom: 4em;
-    height: calc(100vh - 9em);
+    height: calc(100vh - 5em);
     width: calc(100% - 11em);
     background-color: #141922;
     overflow: auto;
+    padding-top: 4em;
 }
 
 
@@ -219,7 +221,6 @@
 }
 
 .col-main{
-    border:1px solid white;
     margin: .5em;
     width: calc(100% / 6 - 1em);
     text-align: center;
