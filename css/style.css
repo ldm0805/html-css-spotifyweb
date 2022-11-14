@@ -58,8 +58,16 @@
     padding-right: 1em;
 }
 
+.pd-03em{
+    padding: 0.3em;
+}
+
 .font-sz{
-    font-size: .8em;
+    font-size: .7em;
+}
+
+.font-sz-1em{
+    font-size: 1em;
 }
 
 .margin-1em{
@@ -76,7 +84,7 @@
 
 
 .font-sz-18em{
-    font-size: 1.8em;
+    font-size: 1.5em;
 }
 
 .font-sz-1em{
@@ -89,6 +97,16 @@
 
 .border-r-100{
     border-radius: 100%;
+}
+
+.vertical-align{
+
+    vertical-align: middle;
+}
+
+.overflow{
+    height: 100%;
+    overflow-y: auto;
 }
 
 /* Header */
@@ -123,7 +141,7 @@
 }
 
 .row-aside {
-    height: calc(100% - 5em);
+    height: calc(100% - 4em);
     width: 11em;
     position: fixed;
     overflow-y: hidden;
@@ -156,7 +174,6 @@
 }
 
 .col-aside-down{
-    border: 1px solid red;
     background-color: rgba(0, 0, 0, 0.11);
     width: 100%;
 }
@@ -171,7 +188,7 @@
 }
 
 .margin-top-bt{
-    margin: 1em 0em;
+    margin: .5em 0em;
 }
 
 .profile-img{
@@ -208,7 +225,7 @@
     left: 11em;
     top: 0em;
     bottom: 4em;
-    height: calc(100vh - 5em);
+    height: calc(100vh - 4em);
     width: calc(100% - 11em);
     background-color: #141922;
     overflow: auto;
@@ -243,7 +260,7 @@
     position: absolute;
     bottom: 0;
     right: 0;
-    height: 5em;
+    height: 4em;
     width: 100%;
     background-color: rgb(78, 79, 80);
     justify-content: space-between;
@@ -275,7 +292,7 @@
 }
 
 .line-prog{
-    width: 85%;
+    width: 100%;
 }
 
 
@@ -283,6 +300,22 @@
     width: 100%;
 }
 
+
+.line {
+    width: 100%;
+    background:rgb(82, 82, 82);
+    position:relative;
+    height:5px;
+    border-radius: 20px;
+}
+.line:before {
+    content:'';
+    background:rgb(182, 182, 182);
+    width:30%;
+    height:5px;
+    position:absolute;
+    border-radius: 20px;
+}
 
 /* responsive */
 
