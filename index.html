@@ -68,16 +68,20 @@
                         </div>
                     </div>
                 </div>
-
+                <!-- Menu versione small -->
                 <div id="aside-head" class="cont-aside">
-                    <div class="row row-aside flex flex-column">
+                    <div class="row row-aside flex flex-column align-items">
                         <div class="col-small"> 
-                            <div class="flex flex-column">
-                                <a href="#"><img class="txt-gray" src="./img/logo-small.svg" alt="logo"></a>
-                                <img class="logo-side vertical-align" src="./img/home.svg" alt="home">
-                                <img class="logo-side vertical-align" src="./img/search.svg" alt="search">
-                                <img class="logo-side vertical-align" src="./img/libreria.svg" alt="library">
+                            <div class="margin-top-bt flex flex-column align-items gap-05em">
+                                <img class="txt-gray side-small" src="./img/logo-small.svg" alt="logo">
+                                <img class="side-small" src="./img/home.svg" alt="home">
+                                <img class="side-small" src="./img/search.svg" alt="search">
+                                <img class="side-small" src="./img/libreria.svg" alt="library">
                             </div>
+                        </div>
+                        <div class="col-small-b margin-top-bt flex flex-column align-items gap-05em">
+                            <img class="" src="./img/download.svg" alt="download">
+                            <div class="logo-side line-height profile-img"></div>
                         </div>
                     </div>
                 </div>
@@ -88,9 +92,10 @@
              <main >
                 
                 <div id="responsive-md" class="cont-main">
-
                     <div class="row row-main">
-                        <header>
+
+                        <!-- Topbar  -->
+
                             <div class="cont-head">
                                 <div class="row row-head flex">
                                     <div class="col col-head">
@@ -98,8 +103,9 @@
                                     </div>
                                 </div>
                             </div>
-                        </header>
-                        
+
+                            <!-- Generi -->
+
                             <div class="category flex jsf-cnt-center">
                                 <ul class="flex margin-top-bt">
                                     <li class="list-decoration-none mrg-left line-height font-sz txt-align"><a class="link-reset txt-gray" href="#">IN EVIDENZA</a><div class="bt-green-border"></div></li>
@@ -113,7 +119,9 @@
                             <div class="margin-1em">
                                 <h3 class="txt-white">Recentely Played</h3>
                             </div>
-                            
+
+                            <!-- Album -->
+
                                <div class="row-album flex">
                                    <div class="col col-main">
                                        <div class="relative">
@@ -165,8 +173,8 @@
                                     </div>
                                 </div>
                            
-
-                            
+                                <!-- Seconda parte album  -->
+                                
                                 <div class="margin-1em">
                                     <h3 class="txt-white">Recentely Played</h3>
                                     <span class="txt-gray font-sz">Più ascolti, più accurati saranno i suggerimenti</span>
@@ -186,9 +194,10 @@
                                         </div>
                                             <h5 class="txt-white">Daily Mix 1</h5>
                                         </div>
-                                        
                                     </div>
-                                    
+
+                                <!-- Terza parte album a cerchio -->
+
                                     <div class="margin-1em">
                                         <h3 class="txt-white">Artisti più popolari</h3>
                                         <span class="txt-gray font-sz">Più ascolti, più accurati saranno i suggerimenti</span>
@@ -219,12 +228,8 @@
              <footer>
                 <div id="footer-head" class="footer-aside">
                     <div class="row row-footer flex">
-                        
                         <div class="col col-20 col-footer flex align-items ">
-                           
                                 <img class="img-song" src="./img/sinister.jpeg" alt="sinister">
-                            
-                           
                                 <div class="pd-lt-05em tag-song flex jsf-cnt-center">
                                     <div class="flex flex-column ">
                                         <div class="font-sz"><a class="link-reset txt-white" href="#"><strong>Sinister</strong></a></div>
@@ -235,18 +240,16 @@
                                     <i class="fa-regular fa-heart font-sz pd-lt-1em txt-gray hover-white"></i>
                                     <i class="fa-regular fa-folder font-sz pd-lt-1em txt-gray hover-white"></i>
                                 </div>
-                            
                         </div>
-
                         <div id="flex-grow" class="col col-30 col-footer flex align-items flex-column jsf-cnt-center">
                             <div class="flex">
                                 <button class="button-reset font-sz-1em"><i class="fa-solid fa-shuffle txt-white"></i></button>
                                 <button class="button-reset font-sz-1em"><i class="fa-solid fa-backward-step pd-lt-1em txt-white"></i></button>
                                 <button class="button-reset font-sz-1em"><i class="fa-regular fa-circle-play hover-size pd-lt-1em txt-white"></i></button>
                                 <button class="button-reset font-sz-1em"><i class="fa-solid fa-forward-step pd-lt-1em txt-white"></i></button>
-                                <button class="button-reset font-sz-1em"><i class="fa-solid fa-arrow-rotate-right pd-lt-1em txt-white"></i></button>
-                               
+                                <button class="button-reset font-sz-1em"><i class="fa-solid fa-arrow-rotate-right pd-lt-1em txt-white"></i></button> 
                             </div>
+
                             <div class="line-prog flex align-items">
                                 <span class="pd-rt-1em font-sz txt-white">0:25</span>
                                 <div class="line">
@@ -254,7 +257,7 @@
                                 </div>
                                 <span class="pd-lt-1em font-sz txt-white" >0:45</span>
                             </div>
-                            </div>
+                        </div>
 
                         <div class="col col-20 col-footer flex align-items">
                                 <div class="flex margin-rt">
@@ -265,10 +268,10 @@
                                 <div class="line margin-rt">
                                     <div class="progressbar-cursor"></div>
                                 </div>
-                            </div>
                         </div>
-
                     </div>
+
+                </div>
             </footer>            
         </body>
 </html>

@@ -29,6 +29,10 @@
     justify-content: center;
 }
 
+.gap-05em{
+    gap: 0.8em;
+}
+
 .gap-1em{
     gap: 1em;
 }
@@ -208,12 +212,14 @@
     margin: .5em 0em;
 }
 
+
 .profile-img{
     background-color: gray;
     color: white;
     padding: .8em;
     border-radius: 100%;
     background-image: url(../img/profile.svg);
+    background-size: cover;
 }
 
 .marginauto{
@@ -485,24 +491,32 @@ a:hover{
     #aside-head div.col-small{
         display: block;
         width: 100%;
+        justify-content: space-between;
     }
 
+    .side-small{
+        width: 80%;
+    }
+
+    .col-small-b{
+        width: 50%;
+    }
 
     #aside-head .row-aside {
-        width: 4em;
+        width: 2em;
       }
 
       #responsive-md .row-main{
         position: absolute;
-        left: 4em;
-        width: calc(100% - 4em);
+        left: 2em;
+        width: calc(100% - 2em);
 
     }
 
     #responsive-md .row-head{
         position: fixed;
-        left: 4em;
-        width: calc(100% - 4em);
+        left: 2em;
+        width: calc(100% - 2em);
         
     }
 
