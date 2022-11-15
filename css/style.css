@@ -9,6 +9,7 @@
 
 /* Common */
 
+/* Flex */
 .flex{
     display: flex;
 }
@@ -41,9 +42,40 @@
     gap: 1em;
 }
 
+
+/* Margin */ 
+
 .mrg-left{
     margin-left: 1em;
 }
+
+.margin-bt{
+    margin-bottom: 0.5em;
+}
+
+/* Padding */
+
+.pd-lt-05em{
+    padding-left: .5em;
+}
+
+.pd-lt-1em{
+    padding-left: 1em;
+}
+
+.pd-rt-1em{
+    padding-right: 1em;
+}
+
+.pd-03em{
+    padding: 0.3em;
+}
+
+.pd-right-02em{
+    padding-right: 0.2em;
+}
+
+/* Font e reset */
 
 .txt-white{
     color: white;
@@ -62,22 +94,6 @@
     list-style-type: none;
 }
 
-.pd-lt-05em{
-    padding-left: .5em;
-}
-
-.pd-lt-1em{
-    padding-left: 1em;
-}
-
-.pd-rt-1em{
-    padding-right: 1em;
-}
-
-.pd-03em{
-    padding: 0.3em;
-}
-
 .font-sz{
     font-size: .7em;
 }
@@ -94,11 +110,6 @@
 .txt-gray{
     color: gray;
 }
-
-.margin-bt{
-    margin-bottom: 0.5em;
-}
-
 
 .font-sz-18em{
     font-size: 1.5em;
@@ -124,14 +135,17 @@
     vertical-align: middle;
 }
 
-.overflow{
-
-    overflow-y: auto;
-}
+/* Altezze ed overflow */
 
 .height100{
     height: 100%;
 }
+
+.overflow{
+    max-height: 12em;
+    overflow-y: auto;
+}
+
 
 /* Header */
 
@@ -353,6 +367,11 @@ a:hover{
     width: 50px;
 }
 
+.img-song:hover{
+    height: 60px;
+    width: 60px;
+}
+
 
 .tag-song{
     flex-direction: row;
@@ -550,7 +569,6 @@ strong:hover{
     #responsive-md .row-head{
         left: 2em;
         width: calc(100% - 2em);
-        
     }
 
     #aside-menu img:hover{
