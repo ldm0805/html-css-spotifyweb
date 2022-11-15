@@ -58,8 +58,8 @@
                             </div>
                         </div>
                         <div class="col col-aside-down pd-03em">
-                            <div>
-                                <a class="txt-gray link-reset" href="#"><img class="logo-side line-height vertical-align" src="./img/download.svg" alt="download"><span class=" pd-lt-05em font-sz">Installa app</span></a>
+                            <div class="app-hover">
+                                <a class="txt-gray link-reset" href="#"><img class="logo-side line-height vertical-align" src="./img/download.svg" alt="download"><span class="pd-lt-05em font-sz">Installa app</span></a>
                             </div>
                             <hr class="margin-top-bt">
                             <div class="flex align-items txt-white">
@@ -68,24 +68,31 @@
                         </div>
                     </div>
                 </div>
+            </aside>
+
                 <!-- Menu versione small -->
-                <div id="aside-head" class="cont-aside">
-                    <div class="row row-aside flex flex-column align-items">
-                        <div class="col-small"> 
-                            <div class="margin-top-bt flex flex-column align-items gap-05em">
-                                <img class="txt-gray side-small" src="./img/logo-small.svg" alt="logo">
-                                <img class="side-small" src="./img/home.svg" alt="home">
-                                <img class="side-small" src="./img/search.svg" alt="search">
-                                <img class="side-small" src="./img/libreria.svg" alt="library">
+
+                <div id="aside-menu" class="cont-aside">
+                    <div class="row row-aside-small ">
+                        <div class="flex flex-column align-items jsf-cnt-sb height100">
+                            <div class="col-small col-small-a"> 
+                                <div class="margin-top-bt flex flex-column align-items gap-05em">
+                                    <img class="txt-gray side-small" src="./img/logo-small.svg" alt="logo">
+                                    <img class="side-small" src="./img/home.svg" alt="home">
+                                    <img class="side-small" src="./img/search.svg" alt="search">
+                                    <img class="side-small" src="./img/libreria.svg" alt="library">
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-small-b margin-top-bt flex flex-column align-items gap-05em">
-                            <img class="" src="./img/download.svg" alt="download">
-                            <div class="logo-side line-height profile-img"></div>
+                            <div class="col-small col-small-b">
+                                <div class=" margin-top-bt flex flex-column align-items gap-05em">
+                                    <img src="./img/download.svg" alt="download">
+                                    <div class="logo-side line-height profile-img"></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </aside>
+            
 
              <!-- Main -->
 
@@ -108,12 +115,25 @@
 
                             <div class="category flex jsf-cnt-center">
                                 <ul class="flex margin-top-bt">
-                                    <li class="list-decoration-none mrg-left line-height font-sz txt-align"><a class="link-reset txt-gray" href="#">IN EVIDENZA</a><div class="bt-green-border"></div></li>
-                                    <li class="list-decoration-none mrg-left line-height font-sz"><a class="link-reset txt-gray" href="#">PODCAST</a></li>
-                                    <li class="list-decoration-none mrg-left line-height font-sz"><a class="link-reset txt-gray" href="#">CLASSIFICHE</a></li>
-                                    <li class="list-decoration-none mrg-left line-height font-sz"><a class="link-reset txt-gray" href="#">GENERI E MOOD</a></li>
-                                    <li class="list-decoration-none mrg-left line-height font-sz"><a class="link-reset txt-gray" href="#">NUOVE USCITE</a></li>
-                                    <li class="list-decoration-none mrg-left line-height font-sz"><a class="link-reset txt-gray" href="#">SCOPRI</a></li>
+                                    <li class="list-decoration-none mrg-left line-height font-sz txt-align">
+                                        <a class="link-reset txt-gray bt-green-border" href="#">IN EVIDENZA</a>
+                                        
+                                    </li>
+                                    <li class="list-decoration-none mrg-left line-height font-sz">
+                                        <a class="link-reset txt-gray" href="#">PODCAST</a>
+                                    </li>
+                                    <li class="list-decoration-none mrg-left line-height font-sz">
+                                        <a class="link-reset txt-gray" href="#">CLASSIFICHE</a>
+                                    </li>
+                                    <li class="list-decoration-none mrg-left line-height font-sz">
+                                        <a class="link-reset txt-gray" href="#">GENERI E MOOD</a>
+                                    </li>
+                                    <li class="list-decoration-none mrg-left line-height font-sz">
+                                        <a class="link-reset txt-gray" href="#">NUOVE USCITE</a>
+                                    </li>
+                                    <li class="list-decoration-none mrg-left line-height font-sz">
+                                        <a class="link-reset txt-gray" href="#">SCOPRI</a>
+                                    </li>
                                 </ul>
                             </div>
                             <div class="margin-1em">
@@ -176,7 +196,7 @@
                                 <!-- Seconda parte album  -->
                                 
                                 <div class="margin-1em">
-                                    <h3 class="txt-white">Recentely Played</h3>
+                                    <h3 class="txt-white">Creato per John Doe</h3>
                                     <span class="txt-gray font-sz">Più ascolti, più accurati saranno i suggerimenti</span>
                                 </div>                                
                                    <div class="row-album flex">
@@ -232,8 +252,16 @@
                                 <img class="img-song" src="./img/sinister.jpeg" alt="sinister">
                                 <div class="pd-lt-05em tag-song flex jsf-cnt-center">
                                     <div class="flex flex-column ">
-                                        <div class="font-sz"><a class="link-reset txt-white" href="#"><strong>Sinister</strong></a></div>
-                                        <div class="txt-gray font-sz"><a class="link-reset txt-gray" href="#"><strong>Brano nome</strong></a></div>
+                                        <div class="font-sz">
+                                            <a class="link-reset txt-white" href="#">
+                                                <strong>Sinister</strong>
+                                            </a>
+                                        </div>
+                                        <div class="txt-gray font-sz">
+                                            <a class="link-reset txt-gray" href="#">
+                                                <strong>Brano nome</strong>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="heart-folder flex align-items">
@@ -243,11 +271,21 @@
                         </div>
                         <div id="flex-grow" class="col col-30 col-footer flex align-items flex-column jsf-cnt-center">
                             <div class="flex">
-                                <button class="button-reset font-sz-1em"><i class="fa-solid fa-shuffle txt-white"></i></button>
-                                <button class="button-reset font-sz-1em"><i class="fa-solid fa-backward-step pd-lt-1em txt-white"></i></button>
-                                <button class="button-reset font-sz-1em"><i class="fa-regular fa-circle-play hover-size pd-lt-1em txt-white"></i></button>
-                                <button class="button-reset font-sz-1em"><i class="fa-solid fa-forward-step pd-lt-1em txt-white"></i></button>
-                                <button class="button-reset font-sz-1em"><i class="fa-solid fa-arrow-rotate-right pd-lt-1em txt-white"></i></button> 
+                                <button class="button-reset font-sz-1em">
+                                    <i class="fa-solid fa-shuffle txt-white"></i>
+                                </button>
+                                <button class="button-reset font-sz-1em">
+                                    <i class="fa-solid fa-backward-step pd-lt-1em txt-white"></i>
+                                </button>
+                                <button class="button-reset font-sz-1em">
+                                    <i class="fa-regular fa-circle-play hover-size pd-lt-1em txt-white"></i>
+                                </button>
+                                <button class="button-reset font-sz-1em">
+                                    <i class="fa-solid fa-forward-step pd-lt-1em txt-white"></i>
+                                </button>
+                                <button class="button-reset font-sz-1em">
+                                    <i class="fa-solid fa-arrow-rotate-right pd-lt-1em txt-white"></i>
+                                </button> 
                             </div>
 
                             <div class="line-prog flex align-items">
@@ -261,9 +299,15 @@
 
                         <div class="col col-20 col-footer flex align-items">
                                 <div class="flex margin-rt">
-                                    <button class="button-reset font-sz"><i class="fa-solid fa-list pd-lt-1em txt-white"></i></button>
-                                    <button class="button-reset font-sz"><i class="fa-solid fa-desktop pd-lt-1em txt-white"></i></button>
-                                    <button class="button-reset font-sz"><i class="fa-solid fa-volume-high pd-lt-1em txt-white"></i></button>
+                                    <button class="button-reset font-sz">
+                                        <i class="fa-solid fa-list pd-lt-1em txt-white"></i>
+                                    </button>
+                                    <button class="button-reset font-sz">
+                                        <i class="fa-solid fa-desktop pd-lt-1em txt-white"></i>
+                                    </button>
+                                    <button class="button-reset font-sz">
+                                        <i class="fa-solid fa-volume-high pd-lt-1em txt-white"></i>
+                                    </button>
                                 </div>
                                 <div class="line margin-rt">
                                     <div class="progressbar-cursor"></div>
