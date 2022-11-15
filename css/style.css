@@ -311,10 +311,12 @@
 }
 
 a:hover{
-    filter: brightness(50);
+    color:white;
 }
 
-
+.plus-hover:hover{
+    background-color: white;
+}
 /* Footer */
 
 .cont-footer{
