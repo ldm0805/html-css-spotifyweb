@@ -346,9 +346,6 @@ a:hover{
     align-items: center;
 }
 
-/* .song-cont{
-    justify-content: space-between;
-} */
 
 .line-prog{
     width: 100%;
@@ -394,6 +391,8 @@ a:hover{
     transform: translateY(-50%);
 }
 
+/* Animazione barra traccia */
+
 .line:hover .progressbar-cursor {
     animation: test-move-right 1.5s linear;
 }
@@ -421,6 +420,7 @@ a:hover{
 }
 
 /* Responsive md*/
+
 @media screen and (max-width: 768px) {
 
 
@@ -481,6 +481,8 @@ a:hover{
     }
 
 }
+
+/* responsive xs */
 
 @media screen and (max-width: 470px) {
 
