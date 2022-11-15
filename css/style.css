@@ -440,16 +440,15 @@ strong:hover{
     text-decoration: underline;
 }
 
-/* Animazione barra traccia */
-
-.line:hover .progressbar-cursor {
-    animation: test-move-right 1.5s linear;
+#flex-grow .fa-solid:hover{
+    cursor: pointer;
 }
 
-  @keyframes test-move-right {
-    0%   {left: 20%;  top: 20%;}
-    100% {left: 95%; top: 20%; }
-  }
+.button-reset .fa-solid:hover{
+    cursor: pointer;
+}
+
+/* Animazione barra traccia */
 
 .line:hover:before{
     background: rgb(10, 205, 10);
@@ -457,6 +456,16 @@ strong:hover{
     transition: width 1.5s linear;
     cursor: pointer;
 }
+
+.line:hover .progressbar-cursor {
+    animation: test-move-right 1.5s linear;
+}
+
+  @keyframes test-move-right {
+    0%   {left: 20%;  top: 20%;}
+    100% {left: 92%; top: 20%; }
+  }
+
 
 .hover-size:hover{
     font-size: 1.2em;
@@ -583,6 +592,10 @@ strong:hover{
         cursor: pointer;
     }
 
+
+    #footer-head img{
+        display: none;
+    }
 
 }
 
