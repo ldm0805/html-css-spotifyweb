@@ -320,7 +320,9 @@ a:hover{
 }
 
 .col-20{
-    width: 20%;
+    height: 100%;
+    width: 25%;
+    justify-content: space-between;
 }
 
 .col-30{
@@ -334,13 +336,14 @@ a:hover{
 
 
 .tag-song{
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-.song-cont{
+/* .song-cont{
     justify-content: space-between;
-}
+} */
 
 .line-prog{
     width: 100%;
@@ -357,6 +360,7 @@ a:hover{
     height: 5px;
     border-radius: 20px;
 }
+
 .line:before {
     content:'';
     background:rgb(220, 220, 220);
@@ -373,8 +377,6 @@ a:hover{
     transition: width 1.5s;
     cursor: pointer;
 }
-
-
 
 .hover-size:hover{
     font-size: 1.2em;
@@ -409,6 +411,64 @@ a:hover{
 
     #responsive-md li{
         width: calc(100% / 5 - 1em);
+    }
+
+}
+
+/* Responsive s */
+
+@media screen and (max-width: 576px) {
+
+
+    #responsive-md .row-album{
+        flex-wrap: wrap;
+    }
+
+
+    #responsive-md .col-main{
+        margin: .3em;
+        width: calc(100% / 2 - .9em);
+    }
+
+    
+    #responsive-md ul{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #responsive-md li{
+        width: calc(100% / 3 - 1em);
+    }
+
+
+    #footer-head .heart-folder{
+        gap: .5em;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 470px) {
+
+    #aside-head .row-aside {
+        width: 4em;
+      }
+
+      #responsive-md .row-main{
+        position: absolute;
+        left: 4em;
+        width: calc(100% - 4em);
+
+    }
+
+    #responsive-md .row-head{
+        position: fixed;
+        left: 4em;
+
+        width: calc(100% - 4em);
+
     }
 
 }
