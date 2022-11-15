@@ -238,7 +238,6 @@
 
 /* Main */
 
-
 .cont-main{
     position: relative;
 }
@@ -359,6 +358,7 @@ a:hover{
     position: relative;
     height: 5px;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .line:before {
@@ -368,13 +368,39 @@ a:hover{
     height: 5px;
     position: absolute;
     border-radius: 20px;
+    
 }
 
+.progressbar-cursor{
+    display: none;
+}
+
+ .line:hover .progressbar-cursor{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(100, 78, 200);
+    border: 1px solid white;
+    transform: translateY(-50%);
+}
+
+.line:hover .progressbar-cursor {
+    animation: test-move-right 1.5s linear;
+}
+
+  @keyframes test-move-right {
+    0%   {left: 20%;  top: 20%;}
+    100% {left: 95%; top: 20%; }
+  }
 
 .line:hover:before{
     background: rgb(10, 205, 10);
     width: 100%;
-    transition: width 1.5s;
+    transition: width 1.5s linear;
     cursor: pointer;
 }
 
@@ -452,6 +478,16 @@ a:hover{
 
 @media screen and (max-width: 470px) {
 
+    #aside-head div.col{
+        display: none;
+    }
+
+    #aside-head div.col-small{
+        display: block;
+        width: 100%;
+    }
+
+
     #aside-head .row-aside {
         width: 4em;
       }
@@ -466,10 +502,10 @@ a:hover{
     #responsive-md .row-head{
         position: fixed;
         left: 4em;
-
         width: calc(100% - 4em);
-
+        
     }
+
 
 }
 
