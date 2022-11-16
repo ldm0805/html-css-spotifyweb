@@ -137,6 +137,11 @@
 
 /* Altezze ed overflow */
 
+.width100{
+    width: calc(100% / 6 -1em);
+    margin: 0 5em;
+}
+
 .height100{
     height: 100%;
 }
@@ -499,9 +504,6 @@ strong:hover{
         justify-content: center;
     }
 
-    #responsive-md li{
-        width: calc(100% / 5 - 1em);
-    }
 
 }
 
@@ -539,6 +541,11 @@ strong:hover{
         justify-content: center;
         flex-direction: column;
     }
+
+    #responsive-md li{
+        margin: 0em .1em;
+    }
+
 
 }
 
@@ -596,6 +603,11 @@ strong:hover{
     #footer-head img{
         display: none;
     }
+
+    #responsive-md li{
+        margin: 0em;
+    }
+
 
 }
 
